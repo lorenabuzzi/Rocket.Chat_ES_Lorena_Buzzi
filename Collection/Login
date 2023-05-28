@@ -1,0 +1,88 @@
+Login
+
+POST https://lorenabuzzi.rocket.chat/api/v1/login
+
+Body:
+
+user			lorenabuzzi
+password		noelgordo123##
+
+
+Response:
+
+{
+    "status": "success",
+    "data": {
+        "userId": "initialuser",
+        "authToken": "t0N_DVcrNnJuexfjWkl7AuiN0VrGgmE-f-9bcAOagxo",
+        "me": {
+            "_id": "initialuser",
+            "avatarOrigin": "rest",
+            "services": {
+                "password": {
+                    "bcrypt": "$2b$10$ukGOBHTsvfndVCDEnW.VOeLFkqKUdhBl3sA9YIaxHxYhTuLfiDGBe"
+                }
+            },
+            "active": true,
+            "name": "lorenabuzzi",
+            "username": "lorenabuzzi",
+            "emails": [
+                {
+                    "address": "lorenabuzzi@gmail.com",
+                    "verified": true
+                }
+            ],
+            "roles": [
+                "admin"
+            ],
+            "_updatedAt": "2023-05-28T00:59:51.863Z",
+            "status": "online",
+            "statusConnection": "online",
+            "utcOffset": -3,
+            "statusText": "Getting to know more about rocket.chat!",
+            "statusDefault": "online",
+            "settings": {
+                "profile": {},
+                "preferences": {
+                    "enableAutoAway": true,
+                    "idleTimeLimit": 300,
+                    "desktopNotificationRequireInteraction": false,
+                    "desktopNotifications": "all",
+                    "pushNotifications": "all",
+                    "unreadAlert": true,
+                    "useEmojis": true,
+                    "convertAsciiEmoji": true,
+                    "autoImageLoad": true,
+                    "saveMobileBandwidth": true,
+                    "collapseMediaByDefault": false,
+                    "hideUsernames": false,
+                    "hideRoles": false,
+                    "hideFlexTab": false,
+                    "displayAvatars": true,
+                    "sidebarGroupByType": true,
+                    "themeAppearence": "auto",
+                    "sidebarViewMode": "medium",
+                    "sidebarDisplayAvatar": true,
+                    "sidebarShowUnread": false,
+                    "sidebarSortby": "activity",
+                    "alsoSendThreadToChannel": "default",
+                    "sidebarShowFavorites": true,
+                    "sendOnEnter": "normal",
+                    "emailNotificationMode": "mentions",
+                    "newRoomNotification": "door",
+                    "newMessageNotification": "chime",
+                    "muteFocusedConversations": true,
+                    "notificationsSoundVolume": 100,
+                    "omnichannelTranscriptEmail": false,
+                    "omnichannelTranscriptPDF": false
+                }
+            },
+            "avatarETag": "9DTHL6PxzeMHY5zFh",
+            "email": "lorenabuzzi@gmail.com",
+            "avatarUrl": "https://lorenabuzzi.rocket.chat/avatar/lorenabuzzi"
+        }
+    }
+}
+
+
+
