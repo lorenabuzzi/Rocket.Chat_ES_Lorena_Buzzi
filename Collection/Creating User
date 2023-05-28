@@ -1,0 +1,48 @@
+Creating User
+
+Method POST https://lorenabuzzi.rocket.chat/api/v1/users.create
+
+#On the headers sections we'll use the AuthToken and UserId generated from the Login request
+
+Headers:
+
+X-Auth-Token			t0N_DVcrNnJuexfjWkl7AuiN0VrGgmE-f-9bcAOagx 
+X-User-Id 				initialuser
+
+
+#On the Body section we'll add the user information we would like to create
+
+Body:
+
+email 					solileao@gmail.com
+name 					Soli
+password				Suporte123
+
+> Response:
+
+{
+    "user": {
+        "_id": "3EHapPENeNZZs6QDm",
+        "createdAt": "2023-05-28T01:57:50.658Z",
+        "username": "solibuzzi",
+        "emails": [
+            {
+                "address": "solileao@gmail.com",
+                "verified": false
+            }
+        ],
+        "type": "user",
+        "status": "offline",
+        "active": true,
+        "__rooms": [
+            "GENERAL"
+        ],
+        "_updatedAt": "2023-05-28T01:57:50.962Z",
+        "roles": [
+            "user"
+        ],
+        "name": "Soli",
+        "settings": {}
+    },
+    "success": true
+}
