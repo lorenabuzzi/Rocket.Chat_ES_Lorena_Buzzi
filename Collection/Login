@@ -2,6 +2,8 @@ Login
 
 POST https://lorenabuzzi.rocket.chat/api/v1/login
 
+![image](https://github.com/lorenabuzzi/Rocket.Chat_ES_Lorena_Buzzi/assets/120065200/c5fc6ca3-7c4d-4913-a0cd-a39a4781b6aa)
+
 Body:
 
 user			lorenabuzzi
