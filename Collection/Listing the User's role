@@ -1,0 +1,54 @@
+Listing the User's role
+
+#For the user Soli, the user role was updated using the Rocket.Chat desktop features 
+
+Method GET https://lorenabuzzi.rocket.chat/api/v1/channels.roles?roomName=general
+
+#Repeat the process with the AuthToken and UserID on the @ Headers
+
+Add the Query Params:
+
+roomName 	gereneral
+
+> Response 
+
+{
+    "roles": [
+        {
+            "_id": "64729e2ee5bcd85e9fd47948",
+            "rid": "GENERAL",
+            "u": {
+                "_id": "HfiAFqQ9G2hkr4XFX",
+                "username": "buzzisuporte"
+            },
+            "roles": [
+                "moderator"
+            ]
+        },
+        {
+            "_id": "64725bbee5bcd85e9fd47943",
+            "rid": "GENERAL",
+            "u": {
+                "_id": "initialuser",
+                "username": "lorenabuzzi",
+                "name": "lorenabuzzi"
+            },
+            "roles": [
+                "leader"
+            ]
+        },
+        {
+            "_id": "6472b51ee5bcd85e9fd4794d",
+            "rid": "GENERAL",
+            "u": {
+                "_id": "3EHapPENeNZZs6QDm",
+                "username": "solibuzzi"
+            },
+            "roles": [
+                "moderator"
+            ]
+        }
+    ],
+    "success": true
+}
+
