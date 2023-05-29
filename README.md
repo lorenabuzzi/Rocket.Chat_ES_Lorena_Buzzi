@@ -5,7 +5,8 @@ API Collection from Postman
 
 1) Login:
 
-![image](https://github.com/lorenabuzzi/Rocket.Chat_ES_Lorena_Buzzi/assets/120065200/a5deb2a4-446a-4a6b-8f71-c3975816711e)
+![image](https://github.com/lorenabuzzi/Rocket.Chat_ES_Lorena_Buzzi/assets/120065200/e9e925f4-842e-4884-ad6b-5c1f350e8416)
+
 
 2) Create User
 
